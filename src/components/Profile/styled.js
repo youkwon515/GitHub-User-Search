@@ -4,13 +4,14 @@ export const Profile = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 30px;
   width: 100%;
-  height: 250px;
+  height: 90%;
 `;
 
 export const ProfileImgBox = styled.div`
-  width: 100px;
-  height: 100px;
+  width: 220px;
+  height: 220px;
   border-radius: 100%;
   overflow: hidden;
   > img {
@@ -28,18 +29,17 @@ export const ProfileDataBox = styled.div`
 `;
 
 export const Name = styled.p`
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
 `;
 
 export const Follow = styled.p`
-  font-size: 10px;
+  font-size: 15px;
 `;
 
 export const Button = styled.button`
-  width: 30px;
-  height: 15px;
-  font-size: 10px;
+  width: 50px;
+  font-size: 15px;
   font-weight: 700;
   margin-top: 20px;
   border: 0;
